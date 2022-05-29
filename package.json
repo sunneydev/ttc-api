@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "typedoc": "^0.22.15",
+    "typedoc-plugin-markdown": "^3.12.1"
   }
 }
