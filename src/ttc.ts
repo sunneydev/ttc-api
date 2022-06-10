@@ -10,31 +10,33 @@ import {
   StopInfo,
   StopRoute,
 } from "./types";
-import fetch from "node-fetch";
+import axios from "axios";
 
-const fetchJSON = async <T>(endpoint: string) =>
-  fetch("http://transfer.ttc.com.ge:8080/otp/routers/ttc" + endpoint).then(
-    (res) => res.json() as unknown as T
-  );
+axios.defaults.baseURL = "http://transfer.ttc.com.ge:8080/otp/routers/ttc";
+
+const fetch = async <T>(endpoint: string) =>
+  await (
+    await axios.get<T>(endpoint)
+  ).data;
 
 const ttc = {
   /**
    * Get all routes.
    * @returns {Promise<Route[]>}
    */
-  routes: (): Promise<Route[]> => fetchJSON("/routes"),
+  routes: (): Promise<Route[]> => fetch("/routes"),
 
   /**
    * Get all bus stops
    * @returns {Promise<Stop[]>}
    */
-  busRoutes: (): Promise<BusRoute[]> => fetchJSON("/routes?type=3"),
+  busRoutes: (): Promise<BusRoute[]> => fetch("/routes?type=3"),
 
   /**
    * Returns a list of stops, note that it includes stops for metro as well.
    * @returns {Promise<Stop[]>}
    */
-  stops: (): Promise<Stop[]> => fetchJSON("/index/stops"),
+  stops: (): Promise<Stop[]> => fetch("/index/stops"),
 
   /**
    * Bus/Metro stop info
@@ -42,7 +44,7 @@ const ttc = {
    * @returns {Promise<StopInfo>}
    */
   stopInfo: (stopId: string): Promise<StopInfo> =>
-    fetchJSON(`/index/stops/${stopId}`),
+    fetch(`/index/stops/${stopId}`),
 
   /**
    * Get all routes for a stop
@@ -50,7 +52,7 @@ const ttc = {
    * @returns {Promise<StopRoute[]>}
    */
   stopRoutes: (stopId: string): Promise<StopRoute[]> =>
-    fetchJSON(`/index/stops/${stopId}/routes`),
+    fetch(`/index/stops/${stopId}/routes`),
 
   /**
    * Get all arrivals for a stop
@@ -69,7 +71,7 @@ const ttc = {
    * @see https://transfer.ttc.com.ge/otp/routers/ttc/index/stops/1946/arrivals
    */
   stopArrivalTimes: (stopId: string): Promise<ArrivalInfo[]> =>
-    fetchJSON<ArrivalTimesResponse>(`/stopArrivalTimes?stopId=${stopId}`).then(
+    fetch<ArrivalTimesResponse>(`/stopArrivalTimes?stopId=${stopId}`).then(
       (res) => res.ArrivalTime
     ),
 
@@ -79,7 +81,7 @@ const ttc = {
    * @returns {Promise<RouteInfo>}
    */
   busRouteInfo: (routeNumber: string, forward: boolean): Promise<RouteInfo> =>
-    fetchJSON(
+    fetch(
       `/routeInfo?routeNumber=${routeNumber}&type=bus&forward=${Number(
         forward
       )}`
@@ -95,7 +97,7 @@ const ttc = {
     routeNumber: string,
     forward: boolean
   ): Promise<BusLiveInfo[]> =>
-    fetchJSON<BusesResponse>(
+    fetch<BusesResponse>(
       `/buses?routeNumber=${routeNumber}&forward=${Number(forward)}`
     ).then((res) => res.bus),
 };

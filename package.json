@@ -1,19 +1,35 @@
 {
   "name": "ttc-api",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
+  "version": "1.0.4",
+  "description": "A fully typed Tbilisi Transport Company API Wrapper",
+  "main": "./lib/ttc.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ttc-api"
+  ],
+  "homepage": "https://github.com/sunney-x/ttc-api#readme",
+  "bugs": {
+    "url": "https://github.com/sunney-x/ttc-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/sunney-x/ttc-api.git"
+  },
+  "author": "sunney-x",
+  "license": "MIT",
   "dependencies": {
-    "node-fetch": "^3.2.4"
+    "axios": "^0.27.2"
   },
   "devDependencies": {
+    "@types/node": "^17.0.41",
+    "ts-node": "^10.8.1",
     "typedoc": "^0.22.15",
-    "typedoc-plugin-markdown": "^3.12.1"
+    "typedoc-plugin-markdown": "^3.12.1",
+    "typescript": "^4.7.3"
   }
 }
