@@ -2,6 +2,19 @@
 
 ### [Methods/Endpoints](docs/modules/ttc.md)
 
+### Installation
+
+```bash
+# npm
+$ npm install ttc-api
+
+# yarn
+$ yarn add ttc-api
+
+# pnpm
+$ pnpm add ttc-api
+```
+
 ### Usage
 
 ```typescript
