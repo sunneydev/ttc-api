@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[types.ts:67](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L67)
+[types.ts:67](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L67)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[types.ts:63](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L63)
+[types.ts:63](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L63)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[types.ts:66](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L66)
+[types.ts:66](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L66)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[types.ts:65](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L65)
+[types.ts:65](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L65)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[types.ts:69](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L69)
+[types.ts:69](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L69)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[types.ts:68](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L68)
+[types.ts:68](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L68)
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-[types.ts:64](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L64)
+[types.ts:64](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L64)

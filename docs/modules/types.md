@@ -35,4 +35,4 @@
 
 #### Defined in
 
-[types.ts:23](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L23)
+[types.ts:23](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L23)

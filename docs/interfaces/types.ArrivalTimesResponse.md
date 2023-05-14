@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[types.ts:86](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L86)
+[types.ts:86](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L86)

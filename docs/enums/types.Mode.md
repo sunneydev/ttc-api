@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[types.ts:8](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L8)
+[types.ts:8](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L8)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[types.ts:9](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L9)
+[types.ts:9](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L9)

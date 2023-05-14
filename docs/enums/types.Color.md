@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[types.ts:2](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L2)
+[types.ts:2](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L2)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[types.ts:3](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L3)
+[types.ts:3](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L3)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[types.ts:4](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L4)
+[types.ts:4](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/types.ts#L4)

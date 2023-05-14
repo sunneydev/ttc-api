@@ -29,4 +29,4 @@
 
 #### Defined in
 
-[ttc.ts:24](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/ttc.ts#L24)
+[ttc.ts:24](https://github.com/sunneydev/ttc-api/blob/72acd1f/src/ttc.ts#L24)
