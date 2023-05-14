@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / Mode
+[ttc-api](../README.md) / [types](../modules/types.md) / Mode
 
 # Enumeration: Mode
 
@@ -6,27 +6,27 @@
 
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Bus](types.Mode.md#bus)
 - [Subway](types.Mode.md#subway)
 
-## Enumeration members
+## Enumeration Members
 
 ### Bus
 
-• **Bus** = `"BUS"`
+• **Bus** = ``"BUS"``
 
 #### Defined in
 
-[types.ts:8](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L8)
+[types.ts:8](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L8)
 
 ___
 
 ### Subway
 
-• **Subway** = `"SUBWAY"`
+• **Subway** = ``"SUBWAY"``
 
 #### Defined in
 
-[types.ts:9](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L9)
+[types.ts:9](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L9)

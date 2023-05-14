@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / ArrivalTimesResponse
+[ttc-api](../README.md) / [types](../modules/types.md) / ArrivalTimesResponse
 
 # Interface: ArrivalTimesResponse
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[types.ts:86](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L86)
+[types.ts:86](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L86)

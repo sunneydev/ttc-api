@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / types
+[ttc-api](../README.md) / types
 
 # Module: types
 
@@ -23,11 +23,11 @@
 - [StopInfo](../interfaces/types.StopInfo.md)
 - [StopRoute](../interfaces/types.StopRoute.md)
 
-### Type aliases
+### Type Aliases
 
 - [BusRoute](types.md#busroute)
 
-## Type aliases
+## Type Aliases
 
 ### BusRoute
 
@@ -35,4 +35,4 @@
 
 #### Defined in
 
-[types.ts:23](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L23)
+[types.ts:23](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L23)

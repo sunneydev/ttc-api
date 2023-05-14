@@ -1,6 +1,6 @@
 ## A fully typed Tbilisi Transport Company API Wrapper
 
-### [Methods/Endpoints](docs/modules/ttc.md)
+### [Documentation](docs/modules/ttc.md)
 
 ### Installation
 
@@ -18,11 +18,11 @@ $ pnpm add ttc-api
 ### Usage
 
 ```typescript
-import ttc from "ttc-api";
+import { ttc } from "ttc-api";
 
-ttc.stopArrivalTimes("1946").then((arrivalTimes) => {
-  for (const at of arrivalTimes) {
-    console.log(at.ArrivalTime, at.RouteNumber);
-  }
-});
+const arrivalTimes = await ttc.stopArrivalTimes("1946").then((arrivalTimes) => {
+
+for (let at of arrivalTimes) {
+  console.log(`${at.RouteNumber} arrives in ${at.ArrivalTime} minutes`);
+}
 ```

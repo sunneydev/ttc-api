@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / TransportType
+[ttc-api](../README.md) / [types](../modules/types.md) / TransportType
 
 # Enumeration: TransportType
 
@@ -6,27 +6,27 @@
 
 ## Table of contents
 
-### Enumeration members
+### Enumeration Members
 
 - [Bus](types.TransportType.md#bus)
 - [Metro](types.TransportType.md#metro)
 
-## Enumeration members
+## Enumeration Members
 
 ### Bus
 
-• **Bus** = `"bus"`
+• **Bus** = ``"bus"``
 
 #### Defined in
 
-[types.ts:28](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L28)
+[types.ts:28](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L28)
 
 ___
 
 ### Metro
 
-• **Metro** = `"metro"`
+• **Metro** = ``"metro"``
 
 #### Defined in
 
-[types.ts:29](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L29)
+[types.ts:29](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L29)

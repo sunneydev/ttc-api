@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / BusLiveInfo
+[ttc-api](../README.md) / [types](../modules/types.md) / BusLiveInfo
 
 # Interface: BusLiveInfo
 
@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[types.ts:109](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L109)
+[types.ts:109](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L109)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types.ts:111](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L111)
+[types.ts:111](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L111)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[types.ts:110](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L110)
+[types.ts:110](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L110)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[types.ts:112](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L112)
+[types.ts:112](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L112)
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 #### Defined in
 
-[types.ts:108](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L108)
+[types.ts:108](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L108)

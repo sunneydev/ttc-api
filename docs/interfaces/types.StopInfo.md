@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / StopInfo
+[ttc-api](../README.md) / [types](../modules/types.md) / StopInfo
 
 # Interface: StopInfo
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[types.ts:46](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L46)
+[types.ts:46](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L46)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[types.ts:42](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L42)
+[types.ts:42](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L42)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[types.ts:44](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L44)
+[types.ts:44](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L44)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[types.ts:47](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L47)
+[types.ts:47](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L47)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[types.ts:45](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L45)
+[types.ts:45](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L45)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[types.ts:43](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L43)
+[types.ts:43](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L43)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[types.ts:49](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L49)
+[types.ts:49](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L49)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[types.ts:50](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L50)
+[types.ts:50](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L50)
 
 ___
 
@@ -106,4 +106,4 @@ ___
 
 #### Defined in
 
-[types.ts:48](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L48)
+[types.ts:48](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L48)

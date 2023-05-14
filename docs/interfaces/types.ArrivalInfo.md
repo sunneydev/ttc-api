@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / ArrivalInfo
+[ttc-api](../README.md) / [types](../modules/types.md) / ArrivalInfo
 
 # Interface: ArrivalInfo
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[types.ts:92](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L92)
+[types.ts:92](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L92)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[types.ts:91](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L91)
+[types.ts:91](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L91)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[types.ts:90](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L90)
+[types.ts:90](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L90)

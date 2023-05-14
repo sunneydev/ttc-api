@@ -1,35 +1,51 @@
 {
   "name": "ttc-api",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A fully typed Tbilisi Transport Company API Wrapper",
-  "main": "./lib/ttc.js",
+  "main": "./lib/index.cjs",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.js",
   "files": [
     "lib"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate-docs": "typedoc --out docs --plugin typedoc-plugin-markdown --theme markdown --readme none src/**/*",
+    "build": "tsup",
+    "prepublishOnly": "pnpm build && pnpm run generate-docs"
   },
-  "keywords": [
-    "ttc-api"
-  ],
-  "homepage": "https://github.com/sunney-x/ttc-api#readme",
+  "homepage": "https://github.com/sunneydev/ttc-api#readme",
   "bugs": {
-    "url": "https://github.com/sunney-x/ttc-api/issues"
+    "url": "https://github.com/sunneydev/ttc-api/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+github.com/sunney-x/ttc-api.git"
+    "url": "git+github.com/sunneydev/ttc-api.git"
   },
-  "author": "sunney-x",
-  "license": "MIT",
   "dependencies": {
-    "axios": "^0.27.2"
+    "@sunney/requests": "^0.2.4"
   },
   "devDependencies": {
-    "@types/node": "^17.0.41",
-    "ts-node": "^10.8.1",
-    "typedoc": "^0.22.15",
-    "typedoc-plugin-markdown": "^3.12.1",
-    "typescript": "^4.7.3"
-  }
+    "@types/node": "^20.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "@typescript-eslint/parser": "^5.59.5",
+    "tsup": "^6.7.0",
+    "typedoc": "^0.24.7",
+    "typedoc-plugin-markdown": "^3.15.3",
+    "typescript": "^5.0.4"
+  },
+  "author": "sunneydev",
+  "license": "MIT",
+  "keywords": [
+    "ttc-api",
+    "tbilisi",
+    "georgia",
+    "transport",
+    "api",
+    "typescript",
+    "ttc",
+    "public transport",
+    "real-time data",
+    "transit",
+    "routes"
+  ]
 }

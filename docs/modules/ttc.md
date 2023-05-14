@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / ttc
+[ttc-api](../README.md) / ttc
 
 # Module: ttc
 
@@ -6,13 +6,13 @@
 
 ### Variables
 
-- [default](ttc.md#default)
+- [ttc](ttc.md#ttc)
 
 ## Variables
 
-### default
+### ttc
 
-• `Const` **default**: `Object`
+• `Const` **ttc**: `Object`
 
 #### Type declaration
 
@@ -29,4 +29,4 @@
 
 #### Defined in
 
-[ttc.ts:20](https://github.com/sunney-x/ttc-api/blob/624d85c/src/ttc.ts#L20)
+[ttc.ts:24](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/ttc.ts#L24)

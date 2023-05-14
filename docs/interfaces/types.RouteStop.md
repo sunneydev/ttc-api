@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / RouteStop
+[ttc-api](../README.md) / [types](../modules/types.md) / RouteStop
 
 # Interface: RouteStop
 
@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[types.ts:75](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L75)
+[types.ts:75](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L75)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types.ts:80](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L80)
+[types.ts:80](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L80)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types.ts:77](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L77)
+[types.ts:77](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L77)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types.ts:76](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L76)
+[types.ts:76](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L76)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[types.ts:74](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L74)
+[types.ts:74](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L74)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[types.ts:82](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L82)
+[types.ts:82](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L82)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[types.ts:78](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L78)
+[types.ts:78](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L78)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[types.ts:73](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L73)
+[types.ts:73](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L73)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[types.ts:79](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L79)
+[types.ts:79](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L79)
 
 ___
 
@@ -117,4 +117,4 @@ ___
 
 #### Defined in
 
-[types.ts:81](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L81)
+[types.ts:81](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L81)

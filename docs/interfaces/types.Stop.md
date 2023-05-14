@@ -1,4 +1,4 @@
-[ttc-api](../README.md) / [Modules](../modules.md) / [types](../modules/types.md) / Stop
+[ttc-api](../README.md) / [types](../modules/types.md) / Stop
 
 # Interface: Stop
 
@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[types.ts:38](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L38)
+[types.ts:38](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L38)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[types.ts:34](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L34)
+[types.ts:34](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L34)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[types.ts:33](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L33)
+[types.ts:33](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L33)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[types.ts:36](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L36)
+[types.ts:36](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L36)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[types.ts:37](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L37)
+[types.ts:37](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L37)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[types.ts:35](https://github.com/sunney-x/ttc-api/blob/624d85c/src/types.ts#L35)
+[types.ts:35](https://github.com/sunneydev/ttc-api/blob/9d52e68/src/types.ts#L35)

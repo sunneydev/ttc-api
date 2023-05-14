@@ -9,14 +9,16 @@ import {
   Stop,
   StopInfo,
   StopRoute,
-} from "./types";
-import axios from "axios";
+} from "./types.js";
+import { requests } from "@sunney/requests";
 
-axios.defaults.baseURL = "http://transfer.ttc.com.ge:8080/otp/routers/ttc";
+const api = requests.client({
+  baseUrl: "http://transfer.ttc.com.ge:8080/otp/routers/ttc",
+});
 
 const fetch = async <T>(endpoint: string) =>
   await (
-    await axios.get<T>(endpoint)
+    await api.get<T>(endpoint)
   ).data;
 
 const ttc = {
@@ -102,4 +104,4 @@ const ttc = {
     ).then((res) => res.bus),
 };
 
-export default ttc;
+export { ttc };
