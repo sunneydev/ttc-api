@@ -1,11 +1,23 @@
 {
   "name": "ttc-api",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A fully typed Tbilisi Transport Company API Wrapper",
   "type": "module",
-  "main": "./lib/ttc.cjs",
+  "main": "./lib/ttc.js",
+  "module": "./lib/ttc.esm.js",
   "types": "./lib/ttc.d.ts",
-  "module": "./lib/ttc.js",
+  "exports": {
+    ".": {
+      "import": "./lib/ttc.js",
+      "require": "./lib/ttc.cjs",
+      "types": "./lib/ttc.d.ts"
+    },
+    "./types": {
+      "import": "./lib/types.js",
+      "require": "./lib/types.cjs",
+      "types": "./lib/types.d.ts"
+    }
+  },
   "files": [
     "lib"
   ],

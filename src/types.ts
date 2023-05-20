@@ -16,7 +16,7 @@ export interface Route {
   Color: Color;
   StopA: string;
   StopB: string;
-  RouteStops: any[];
+  RouteStops: unknown[];
   LongName?: string;
 }
 
@@ -79,7 +79,7 @@ export interface RouteStop {
   Type: TransportType;
   HasBoard: boolean;
   Virtual: boolean;
-  Routes: any[];
+  Routes: unknown[];
 }
 
 export interface ArrivalTimesResponse {

@@ -1,16 +1,12 @@
-import { defineConfig, type Options } from "tsup";
+import { defineConfig } from "tsup";
 
 export default defineConfig(() => {
-  const buildOptions: Options = {
+  return {
+    entry: ["src/*.ts"],
+    outDir: "lib",
     minify: true,
     clean: true,
     format: ["cjs", "esm"],
     dts: true,
-  };
-
-  return {
-    entry: ["src/ttc.ts"],
-    outDir: "lib",
-    ...buildOptions,
   };
 });
